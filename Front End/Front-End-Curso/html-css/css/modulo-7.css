@@ -1,0 +1,509 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif ;
+}
+
+header {
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.aula {
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 10px;
+    height: 50px;
+}
+
+.botao-home {
+    width: 32px;
+}
+
+.h1-conteudo {
+    color: rgb(80, 80, 80);
+    border-bottom: solid 5px gray;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.link-superior, .parte-selecionada{
+    text-decoration: none;
+    color: white;
+    padding: 16px 30px;
+}
+
+.link-botao-home {
+    text-decoration: none;
+    color: black;
+    padding: 7px 30px;
+}
+
+.link-superior:hover, .link-botao-home:hover{
+    background-color: rgb(64, 64, 64);
+    color: white;
+}
+
+.a-tarefa {
+    color: black;
+    padding: 0;
+}
+
+.a-tarefa:hover {
+    color: rgb(147, 147, 147);
+    text-decoration:underline;
+}
+
+.parte-selecionada {
+    background-color: rgb(64, 64, 64);
+    padding: 16px 30px;
+}
+
+.titulo {
+    font-size:xx-large;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.perfil {
+    margin-right: 5px;
+    border-right: solid 5px gray;
+    padding-right: 10px;
+    padding-right: 50px;
+}
+
+.desc {
+    margin-left: 5px;
+    width: 60%;
+    line-height: 30px;
+}
+
+.total {
+    background-color: gainsboro;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.sobre-mim {
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.insta {
+    color: black;
+}
+
+.social {
+    background-color: rgb(170, 170, 170);
+    padding: 15px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    border: solid 5px black;
+    padding: 30px;
+    margin: 50px 20px 50px 20px;
+    line-height: 30px;
+}
+
+.conteudo-total {
+    background-color: lightgray;
+    padding-bottom: 20px;
+}
+
+.dividir {
+    border: solid 8px gray;
+}
+
+.contato {
+    background-color: gainsboro;
+}
+
+.titulo-contato, .titulo-sobre-mim, .titulo-exercicio {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    
+    padding-bottom: 5px;
+    border-bottom: solid 5px gray;
+    border-radius: 20px;
+    width: 40%;
+}
+
+.h1-titulo {
+    margin: 5px;
+    margin-top: 100px;
+}
+
+.titulo-sobre-mim {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cards-contato {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.card-contato {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 28%;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: silver;
+}
+
+.card-contato:hover {
+    background-color: rgb(174, 174, 174);
+}
+
+@media all and (max-width:800px) {
+    .card-contato {
+        width: 100%;
+    }
+}
+
+.logo-contato {
+    height: 32px;
+}
+
+.link-contato {
+    margin: 5px;
+    padding-top: 10px;
+}
+
+.h3-contato {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.a-contato {
+    color: black;
+    padding: 0;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.a-contato:hover {
+    text-decoration: underline;
+}
+
+.foto {
+    border-radius: 50%;
+    text-align: center;
+}
+
+.h2-perfil {
+    text-align: center;
+}
+
+/*-----Tabelas-----*/
+
+.tabela-1, .tabela-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width:600px;
+}
+
+table, tr, td {
+    border: solid 1px;
+}
+
+.h2-tabela {
+    margin: 30px 0px 10px 0px;
+}
+
+
+#tr-1 {
+    height:90px;
+}
+
+#tr-2 {
+    height: 300px;
+}
+
+#td-1 {
+    background-color:#BBCCEE;
+    text-align: center;
+}
+
+#td-2 {
+    width: 20px;
+    background-color: #0000FF;
+} 
+
+#td-3 {
+    width: 60px;
+    background-color: #DDDDDD;
+}
+
+#td-4 {
+    background-color: #EEEEEE;
+}
+
+
+#td-5 {
+    width: 20px;
+    background-color: #0000FF;
+}
+
+#td-6 {
+    text-align: center;
+    background-color: #FF0000;
+}
+
+@media all and (max-width:1024px) {
+    .titulo-exercicio, .titulo-contato {
+        width: 50%;
+    }
+
+    .cards-contato {
+        justify-content: center;
+    }
+
+    .card-contato {
+        width: 28%;
+    }
+}
+
+@media all and (max-width:768px) {
+    .titulo-exercicio, .titulo-contato {
+        width: 60%;
+    }
+
+    .cards-contato {
+        justify-content: center;
+    }
+
+    .card-contato {
+        width: 60%;
+    }
+}
+
+@media all and (max-width:430px) {
+
+    .aula {
+        padding: 0;
+        height: auto;
+    }
+    
+    .botao-home {
+        width: 32px;
+    }
+    
+    .h1-conteudo {
+        color: rgb(80, 80, 80);
+        border-bottom: solid 5px gray;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .link-superior, .parte-selecionada, .link-botao-home{
+        text-decoration: none;
+        color: white;
+        padding: 15px 0px;
+        text-align: center;
+        width: 100%;
+        border-bottom: solid gray;
+    }
+    
+    .link-superior:hover, .link-botao-home:hover{
+        background-color: rgb(64, 64, 64);
+        color: white;
+        height: auto;
+        align-items: center;
+    }
+    
+    .a-tarefa {
+        color: black;
+        padding: 0;
+    }
+    
+    .a-tarefa:hover {
+        color: rgb(147, 147, 147);
+        text-decoration:underline;
+    }
+    
+    .parte-selecionada {
+        background-color: rgb(64, 64, 64);
+        padding: 16px 30px;
+    }
+    
+    .titulo {
+        font-size:x-large;
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    
+    footer {
+        background-color: gray;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .perfil {
+        margin-right: 5px;
+        border-bottom: solid 5px gray;
+        border-radius: 20px;
+        border-right: none;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+
+    .foto {
+        border-radius: 50%;
+        text-align: center;
+        width: 160px;
+        height: 160px;
+    }
+    
+    .desc {
+        margin: 0px;
+        margin-top: 20px;
+        width: 100%;
+        text-align: justify;
+        line-height: 30px;
+    }
+    
+    .total {
+        background-color: gainsboro;
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+    
+    .sobre-mim {
+        width: 70%;
+        margin: 0 auto;
+        justify-content: center;
+        margin-top: 50px;
+        padding: 0;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo-sobre-mim {
+        text-align: center;
+        padding: 0px;
+        padding-bottom: 5px;
+    }
+
+    .titulo-exercicio, .titulo-contato {
+        width: 90%;
+        font-size: 12px;
+    }
+
+    .h1-conteudo {
+        font-size: 28px;
+    }
+
+    .cards-contato {
+        justify-content: center;
+    }
+
+    .card-contato {
+        width: 80%;
+    }
+
+    .tabela-1, .tabela-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    table {
+        width:210px;
+    }
+    
+    table, tr, td, th {
+        border: solid 1px;
+    }
+    
+    .h2-tabela {
+        margin: 15px 0px 5px 0px;
+        font-size: 20px;
+    }
+    
+    
+    #tr-1 {
+        height:45px;
+    }
+    
+    #tr-2 {
+        height: 150px;
+    }
+    
+    #td-1 {
+        background-color:#BBCCEE;
+        text-align: center;
+    }
+    
+    #td-2 {
+        width: 10px;
+        background-color: #0000FF;
+    } 
+    
+    #td-3 {
+        width: 30px;
+        background-color: #DDDDDD;
+    }
+    
+    #td-4 {
+        background-color: #EEEEEE;
+    }
+    
+    
+    #td-5 {
+        width: 10px;
+        background-color: #0000FF;
+    }
+    
+    #td-6 {
+        text-align: center;
+        background-color: #FF0000;
+    }
+
+}
+
